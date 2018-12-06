@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name:  Classe365 API
-Plugin URI:   https://dfp.edu.sa
+Plugin URI:   https://elsclass.com
 Description:  An automated Classe365 API
 Version:      1.0.0
 Author:       Api Developer
-Author URI:   https://dfp.edu.sa
+Author URI:   https://superglobalhost.com
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  cl365
