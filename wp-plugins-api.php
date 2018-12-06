@@ -17,11 +17,11 @@ define( 'CL365_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'CL365_PLUGIN_VERSION', "1.0.0" );
 
 
-add_action('gform_after_submission_3', 'cl365_after_submission_form3', 10, 2);
+add_action('gform_after_submission_1', 'cl365_after_submission_form1', 10, 2);
 
-add_action('gform_after_submission_7', 'cl365_after_submission_form7', 10, 2);
+add_action('gform_after_submission_2', 'cl365_after_submission_form2', 10, 2);
 
-function cl365_after_submission_form3($entry, $form){
+function cl365_after_submission_form1($entry, $form){
 	$student_mage = null;
 	$imgarray = json_decode( rgar( $entry, '53'), true );
 
@@ -92,7 +92,7 @@ function cl365_after_submission_form3($entry, $form){
 }
 
 
-function cl365_after_submission_form7($entry, $form){
+function cl365_after_submission_form2($entry, $form){
 	$student_mage = null;
 	$imgarray = json_decode( rgar( $entry, '53'), true );
 
