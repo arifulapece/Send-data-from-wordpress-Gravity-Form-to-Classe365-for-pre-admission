@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name:  Classe365 API
+Plugin Name:  API for Classe365
 Plugin URI:   https://elsclass.com
-Description:  An automated Classe365 API
+Description:  From Gravity from to API for Classe365
 Version:      1.0.0
-Author:       Api Developer
+Author:       Super Global Host
 Author URI:   https://superglobalhost.com
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
